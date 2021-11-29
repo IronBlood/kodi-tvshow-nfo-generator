@@ -1,0 +1,39 @@
+{
+	"name": "kodi-tvshow-nfo-generator",
+	"version": "0.1.0",
+	"description": "A command-line tool to generate nfo files for TV shows to add to Kodi library.",
+	"repository": "https://github.com/IronBlood/kodi-tvshow-nfo-generator",
+	"homepage": "https://github.com/IronBlood/kodi-tvshow-nfo-generator#readme",
+	"main": "src/index.js",
+	"type": "module",
+	"bin": {
+		"kodi-tvshow-nfo-generator": "bin/cli.mjs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Kodi",
+		"nfo",
+		"generator",
+		"TV shows",
+		"tvshow"
+	],
+	"author": {
+		"name": "Yang Shen",
+		"email": "aplshenyang@gmail.com",
+		"url": "https://github.com/ironblood"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/jsdom": "^16.2.13",
+		"@types/node": "^16.11.10",
+		"typescript": "^4.5.2"
+	},
+	"dependencies": {
+		"@xmldom/xmldom": "^0.7.5",
+		"jsdom": "^18.1.1",
+		"node-fetch": "^3.1.0",
+		"xml-formatter": "^2.5.1"
+	}
+}
